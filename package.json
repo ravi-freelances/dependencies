@@ -1,0 +1,14 @@
+{
+  "name": "dependencies",
+  "version": "1.0.0",
+  "description": "dependencies for general projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravi-freelances/dependencies.git"
+  },
+  "author": "vitor + rafael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravi-freelances/dependencies/issues"
+  }
+}
