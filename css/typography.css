@@ -1,0 +1,11 @@
+html {
+  font-size: clamp(
+    14px,
+    14px + (16 - 14) * ((100vw - 425px) / (768 - 425)),
+    16px
+  );
+}
+
+small {
+  font-size: 0.8em;
+}

@@ -1,0 +1,43 @@
+:root {
+  --mobile-size: 425px;
+  --desktop-size: 768px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:focus-visible {
+  outline: unset;
+}
+
+html {
+  transition: var(--transition-default);
+  scroll-behavior: smooth;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+span {
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  all: inherit;
+}
