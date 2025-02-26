@@ -1,0 +1,47 @@
+.align-items-normal {
+  --align-items: normal;
+}
+
+.align-items-stretch {
+  --align-items: stretch;
+}
+
+.align-items-center {
+  --align-items: center;
+}
+
+.align-items-flex-start {
+  --align-items: flex-start;
+}
+
+.align-items-flex-end {
+  --align-items: flex-end;
+}
+
+.align-items-baseline {
+  --align-items: baseline;
+}
+
+.align-items-first-baseline {
+  --align-items: first baseline;
+}
+
+.align-items-last-baseline {
+  --align-items: last baseline;
+}
+
+.align-items-start {
+  --align-items: start;
+}
+
+.align-items-end {
+  --align-items: end;
+}
+
+.align-items-self-start {
+  --align-items: self-start;
+}
+
+.align-items-self-end {
+  --align-items: self-end;
+}

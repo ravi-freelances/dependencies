@@ -1,2 +1,6 @@
 @import "./reset.css";
 @import "./typography.css";
+
+@import "./display.css";
+@import "./align-items.css";
+@import "./justify-content.css";
