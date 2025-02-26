@@ -10,7 +10,7 @@ function classNameBuilder(defaultClass: string, classList?: object) {
     return `${key}-${values[index]}`
   })
 
-  return `${defaultClass}${classesArray.join(" ")}`
+  return `${defaultClass} ${classesArray.join(" ")}`
 }
 
 export { classNameBuilder }
