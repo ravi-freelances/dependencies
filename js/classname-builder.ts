@@ -1,7 +1,7 @@
 function classNameBuilder(defaultClass: string, classList?: object) {
-  if (!classList) return defaultClass
-
   const classes = Object.fromEntries(Object.entries(classList).filter(([_, value]) => value !== undefined))
+
+  if (Object.keys(classes).length === 0) return defaultClass
 
   const keys = Object.keys(classes)
   const values = Object.values(classes)
