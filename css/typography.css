@@ -1,9 +1,5 @@
 html {
-  font-size: clamp(
-    14px,
-    14px + (16 - 14) * ((100vw - 425px) / (768 - 425)),
-    16px
-  );
+  font-size: clamp(16px, 16px + (18 - 16) * ((100vw - 425px) / (768 - 425)), 18px);
 }
 
 small {
